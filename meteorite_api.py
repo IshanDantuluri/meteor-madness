@@ -120,5 +120,49 @@ def make_meteorite_table(limit: int = 500, out_csv: str = "meteorite_table.csv")
         print(f"Wrote {min(len(rows), desired)} rows to {out_csv}")
 
 
+def write_meteorite_csv(data: List[Dict[str, Any]], out_csv: str = "meteorite_table.csv") -> None:
+    """Write a normalized meteorite CSV for the provided data list.
+
+    This helper is test-friendly and does not perform HTTP requests.
+    It writes the header expected by tests:
+    ["id", "name", "nametype", "recclass", "mass (g)", "year", "reclat", "reclong", "geolocation"]
+    """
+    headers = ["id", "name", "nametype", "recclass", "mass (g)", "year", "reclat", "reclong", "geolocation"]
+    rows = []
+    for item in data:
+        _id = str(item.get("id", ""))
+        name = item.get("name", "")
+        nametype = item.get("nametype", "")
+        recclass = item.get("recclass", "")
+        mass_raw = item.get("mass", "")
+        mass = "" if mass_raw is None else str(mass_raw).replace(",", "")
+        year_raw = item.get("year", "")
+        year = ""
+        if isinstance(year_raw, str) and len(year_raw) >= 4:
+            year = year_raw.strip()[:4]
+
+        reclat = item.get("reclat", "")
+        reclong = item.get("reclong", "")
+        geol = item.get("geolocation") or {}
+        if (not reclat or not reclong) and isinstance(geol, dict):
+            coords = geol.get("coordinates")
+            if isinstance(coords, list) and len(coords) >= 2:
+                lon, lat = coords[0], coords[1]
+                reclat = reclat or str(lat)
+                reclong = reclong or str(lon)
+
+        try:
+            geol_str = json.dumps(geol, ensure_ascii=False)
+        except Exception:
+            geol_str = str(geol)
+
+        rows.append([_id, name, nametype, recclass, mass, year, reclat, reclong, geol_str])
+
+    with open(out_csv, "w", newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(headers)
+        writer.writerows(rows)
+
+
 if __name__ == "__main__":
     make_meteorite_table(limit=500)
