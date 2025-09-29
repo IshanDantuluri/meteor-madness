@@ -8,6 +8,7 @@ The discovery of near-Earth asteroids like "Impactor-2025" highlights the ongoin
 Existing tools lack user-friendly interfaces to simulate and visualize impacts for scientists, policymakers, and the public. In addition, current tools often focus on detection and orbital tracking but fall short in simulating impact consequences or evaluating mitigation strategies like deflection (e.g., kinetic impactors or gravity tractors). These tools are also often either too technical for public use or overly simplistic, missing key environmental impacts. Such gaps hinder preparedness efforts and public understanding of potential impacts if an asteroid were to collide with Earth. A tool that combines accurate data integration, realistic physics-based simulations, and intuitive visualizations could bridge the gap between complex science and actionable insights.
 
 Objectives
+
 Your challenge is to develop an interactive visualization and simulation tool that enables users to explore asteroid impact scenarios, predict consequences, and evaluate mitigation strategies using real NASA and USGS datasets. Can you create a web-based platform that integrates asteroid parameter data (e.g., size, velocity, trajectory) from NASA’s NEO API with USGS datasets pertaining to environmental and geological impacts (e.g., tsunami zones, seismic activity, topography), and transforms that raw data into a powerful educational and decision-support tool for global asteroid risk management?
 
 Think about how your tool can incorporate intuitive controls and dynamic visualizations, such as animated orbital paths or impact zone maps, to engage scientists, policymakers, and the public. How will your tool simulate the asteroid’s trajectory using orbital mechanics, calculate energy from an impact (e.g., determine the crater size, seismic magnitude), and provide visualizations of the outcomes of mitigation strategies? Your tool could allow users to input variables (e.g., asteroid size and velocity) or specify deflection strategies (e.g., kinetic impactors) and provide visualizations of the outcomes, including the asteroid’s path relative to Earth, potential impact points, and environmental effects like tsunamis or atmospheric changes.
@@ -20,6 +21,7 @@ This challenge empowers you to transform raw data into a powerful educational an
 
 Potential Considerations
 You may (but are not required to) consider the following:
+
 
 General Guidance
 

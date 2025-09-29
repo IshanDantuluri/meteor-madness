@@ -1,0 +1,35 @@
+[
+    {
+        "key": "ctrl+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Run All Tables",
+        "when": "editorTextFocus && !terminalFocus"
+    },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Run All Tables",
+        "when": "editorTextFocus && !terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+c",
+        "command": "workbench.action.togglePanel",
+        "when": "editorTextFocus || terminalFocus"
+    },
+    {
+        "key": "cmd+alt+c",
+        "command": "workbench.action.togglePanel",
+        "when": "editorTextFocus || terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+g",
+        "command": "github.copilot.open",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "github.copilot.chat.open",
+        "when": "editorTextFocus"
+    }
+    
+]

@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run All Tables",
+            "type": "shell",
+            "command": "python ${workspaceFolder}/run_all_tables.py",
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}
