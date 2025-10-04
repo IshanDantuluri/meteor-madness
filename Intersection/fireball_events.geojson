@@ -1,0 +1,2381 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8,
+          -38.1
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-09-13 22:24:59",
+        "date": "2025-09-13T22:24:59",
+        "energy_kilotons": 16.7,
+        "impact_e": 0.48,
+        "altitude_m": 25.1,
+        "velocity_km_s": 17.8,
+        "source_row_index": 0,
+        "energy_joules": 69872800000000.0,
+        "mass_kg_est": 441060.4721626057,
+        "impactor_diameter_m_est": 6.54826259603201,
+        "crater_diameter_m_est": 2.8911926872696387,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -142.4,
+          -14.8
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-09-10 11:00:57",
+        "date": "2025-09-10T11:00:57",
+        "energy_kilotons": 2.8,
+        "impact_e": 0.098,
+        "altitude_m": 37.0,
+        "velocity_km_s": null,
+        "source_row_index": 1,
+        "energy_joules": 11715200000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.8500668729656842,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -39.5,
+          -2.3
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-09-09 17:49:10",
+        "date": "2025-09-09T17:49:10",
+        "energy_kilotons": 15.3,
+        "impact_e": 0.44,
+        "altitude_m": 24.0,
+        "velocity_km_s": 20.7,
+        "source_row_index": 2,
+        "energy_joules": 64015200000000.0,
+        "mass_kg_est": 298794.3709304768,
+        "impactor_diameter_m_est": 5.751099015198527,
+        "crater_diameter_m_est": 2.828595047651828,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.2,
+          26.4
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-09-08 10:09:15",
+        "date": "2025-09-08T10:09:15",
+        "energy_kilotons": 3.6,
+        "impact_e": 0.12,
+        "altitude_m": 28.4,
+        "velocity_km_s": null,
+        "source_row_index": 3,
+        "energy_joules": 15062400000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.970033195383036,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.8,
+          30.9
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-08-19 14:08:48",
+        "date": "2025-08-19T14:08:48",
+        "energy_kilotons": 65.8,
+        "impact_e": 1.6,
+        "altitude_m": 27.5,
+        "velocity_km_s": 19.6,
+        "source_row_index": 4,
+        "energy_joules": 275307200000000.0,
+        "mass_kg_est": 1433294.4606413995,
+        "impactor_diameter_m_est": 9.699258076492514,
+        "crater_diameter_m_est": 4.07337498826005,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -167.5,
+          -6.6
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-07-11 01:48:33",
+        "date": "2025-07-11T01:48:33",
+        "energy_kilotons": 3.2,
+        "impact_e": 0.11,
+        "altitude_m": 28.0,
+        "velocity_km_s": 13.6,
+        "source_row_index": 5,
+        "energy_joules": 13388800000000.0,
+        "mass_kg_est": 144775.08650519032,
+        "impactor_diameter_m_est": 4.51708211275909,
+        "crater_diameter_m_est": 1.9128698126974997,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1,
+          33.4
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-06-26 16:24:57",
+        "date": "2025-06-26T16:24:57",
+        "energy_kilotons": 17.0,
+        "impact_e": 0.48,
+        "altitude_m": 32.6,
+        "velocity_km_s": null,
+        "source_row_index": 6,
+        "energy_joules": 71128000000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 2.904090521246032,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.6,
+          12.1
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-06-26 00:37:20",
+        "date": "2025-06-26T00:37:20",
+        "energy_kilotons": 13.2,
+        "impact_e": 0.39,
+        "altitude_m": 30.0,
+        "velocity_km_s": 19.3,
+        "source_row_index": 7,
+        "energy_joules": 55228800000000.0,
+        "mass_kg_est": 296538.43056189426,
+        "impactor_diameter_m_est": 5.736588560798732,
+        "crater_diameter_m_est": 2.726097608397507,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          157.9,
+          -61.3
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-06-21 20:55:14",
+        "date": "2025-06-21T20:55:14",
+        "energy_kilotons": 3.0,
+        "impact_e": 0.1,
+        "altitude_m": 56.3,
+        "velocity_km_s": null,
+        "source_row_index": 8,
+        "energy_joules": 12552000000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.8822540169320587,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.8,
+          21.1
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-05-31 23:06:33",
+        "date": "2025-05-31T23:06:33",
+        "energy_kilotons": 38.6,
+        "impact_e": 1.0,
+        "altitude_m": 47.3,
+        "velocity_km_s": 17.8,
+        "source_row_index": 9,
+        "energy_joules": 161502400000000.0,
+        "mass_kg_est": 1019457.1392500947,
+        "impactor_diameter_m_est": 8.657975745601052,
+        "crater_diameter_m_est": 3.5648786029155426,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.3,
+          -45.1
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-04-28 15:01:15",
+        "date": "2025-04-28T15:01:15",
+        "energy_kilotons": 3.4,
+        "impact_e": 0.12,
+        "altitude_m": 31.4,
+        "velocity_km_s": null,
+        "source_row_index": 10,
+        "energy_joules": 14225600000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.9420823808572079,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6,
+          -29.1
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-04-21 09:27:34",
+        "date": "2025-04-21T09:27:34",
+        "energy_kilotons": 2.3,
+        "impact_e": 0.082,
+        "altitude_m": 41.0,
+        "velocity_km_s": null,
+        "source_row_index": 11,
+        "energy_joules": 9623200000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.7612859795236133,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4,
+          -32.2
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-04-08 14:16:48",
+        "date": "2025-04-08T14:16:48",
+        "energy_kilotons": 2.1,
+        "impact_e": 0.076,
+        "altitude_m": 44.9,
+        "velocity_km_s": 22.6,
+        "source_row_index": 12,
+        "energy_joules": 8786400000000.0,
+        "mass_kg_est": 34405.200093977604,
+        "impactor_diameter_m_est": 2.797916419819774,
+        "crater_diameter_m_est": 1.7216812216456925,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3,
+          -49.3
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-03-29 08:12:43",
+        "date": "2025-03-29T08:12:43",
+        "energy_kilotons": 5.9,
+        "impact_e": 0.19,
+        "altitude_m": 21.6,
+        "velocity_km_s": 12.3,
+        "source_row_index": 13,
+        "energy_joules": 24685600000000.0,
+        "mass_kg_est": 326334.8535924384,
+        "impactor_diameter_m_est": 5.922628985592975,
+        "crater_diameter_m_est": 2.2290043800223867,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5,
+          14.3
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-03-27 16:05:23",
+        "date": "2025-03-27T16:05:23",
+        "energy_kilotons": 104.5,
+        "impact_e": 2.4,
+        "altitude_m": 38.1,
+        "velocity_km_s": 21.3,
+        "source_row_index": 14,
+        "energy_joules": 437228000000000.0,
+        "mass_kg_est": 1927430.624435187,
+        "impactor_diameter_m_est": 10.705812329304031,
+        "crater_diameter_m_est": 4.572745084607219,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2,
+          -70.4
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-03-24 05:51:43",
+        "date": "2025-03-24T05:51:43",
+        "energy_kilotons": 4.9,
+        "impact_e": 0.16,
+        "altitude_m": 21.5,
+        "velocity_km_s": 28.2,
+        "source_row_index": 15,
+        "energy_joules": 20501600000000.0,
+        "mass_kg_est": 51560.78668075047,
+        "impactor_diameter_m_est": 3.201841917448206,
+        "crater_diameter_m_est": 2.1278790510888874,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5,
+          -22.8
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-03-21 05:06:26",
+        "date": "2025-03-21T05:06:26",
+        "energy_kilotons": 3.9,
+        "impact_e": 0.13,
+        "altitude_m": 54.2,
+        "velocity_km_s": null,
+        "source_row_index": 16,
+        "energy_joules": 16317600000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 2.009851964737799,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -30.4,
+          -1.5
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-03-18 17:48:32",
+        "date": "2025-03-18T17:48:32",
+        "energy_kilotons": 11.0,
+        "impact_e": 0.33,
+        "altitude_m": 27.0,
+        "velocity_km_s": 20.1,
+        "source_row_index": 17,
+        "energy_joules": 46024000000000.0,
+        "mass_kg_est": 227835.94465483527,
+        "impactor_diameter_m_est": 5.254129687647396,
+        "crater_diameter_m_est": 2.60463031078896,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.9,
+          -7.1
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-03-13 09:46:51",
+        "date": "2025-03-13T09:46:51",
+        "energy_kilotons": 75.0,
+        "impact_e": 1.8,
+        "altitude_m": 38.0,
+        "velocity_km_s": 28.1,
+        "source_row_index": 18,
+        "energy_joules": 313800000000000.0,
+        "mass_kg_est": 794822.7606033358,
+        "impactor_diameter_m_est": 7.968626524633668,
+        "crater_diameter_m_est": 4.208847932782123,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0,
+          28.1
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-02-22 10:26:08",
+        "date": "2025-02-22T10:26:08",
+        "energy_kilotons": 5.5,
+        "impact_e": 0.18,
+        "altitude_m": 46.7,
+        "velocity_km_s": 15.0,
+        "source_row_index": 19,
+        "energy_joules": 23012000000000.0,
+        "mass_kg_est": 204551.11111111112,
+        "impactor_diameter_m_est": 5.068669668390834,
+        "crater_diameter_m_est": 2.190224291403605,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1,
+          -6.9
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-02-22 00:16:50",
+        "date": "2025-02-22T00:16:50",
+        "energy_kilotons": 3.5,
+        "impact_e": 0.12,
+        "altitude_m": 35.0,
+        "velocity_km_s": null,
+        "source_row_index": 20,
+        "energy_joules": 14644000000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.9562075469172593,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.3,
+          73.4
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-02-12 04:33:39",
+        "date": "2025-02-12T04:33:39",
+        "energy_kilotons": 4.0,
+        "impact_e": 0.13,
+        "altitude_m": 42.0,
+        "velocity_km_s": 21.9,
+        "source_row_index": 21,
+        "energy_joules": 16736000000000.0,
+        "mass_kg_est": 69790.03773899627,
+        "impactor_diameter_m_est": 3.5418039562076196,
+        "crater_diameter_m_est": 2.0226135706492703,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.0,
+          14.4
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-02-07 17:25:57",
+        "date": "2025-02-07T17:25:57",
+        "energy_kilotons": 2.4,
+        "impact_e": 0.086,
+        "altitude_m": 50.8,
+        "velocity_km_s": 20.1,
+        "source_row_index": 22,
+        "energy_joules": 10041600000000.0,
+        "mass_kg_est": 49709.66065196406,
+        "impactor_diameter_m_est": 3.1630566764792536,
+        "crater_diameter_m_est": 1.7801259425260163,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.0,
+          -1.7
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-02-06 17:52:54",
+        "date": "2025-02-06T17:52:54",
+        "energy_kilotons": 2.0,
+        "impact_e": 0.073,
+        "altitude_m": 36.2,
+        "velocity_km_s": 17.4,
+        "source_row_index": 23,
+        "energy_joules": 8368000000000.0,
+        "mass_kg_est": 55278.10807240058,
+        "impactor_diameter_m_est": 3.2770099839246116,
+        "crater_diameter_m_est": 1.700808501002487,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3,
+          -17.7
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-02-02 16:30:50",
+        "date": "2025-02-02T16:30:50",
+        "energy_kilotons": 4.0,
+        "impact_e": 0.13,
+        "altitude_m": 40.0,
+        "velocity_km_s": null,
+        "source_row_index": 24,
+        "energy_joules": 16736000000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 2.0226135706492703,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.3,
+          -1.2
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-01-11 14:46:00",
+        "date": "2025-01-11T14:46:00",
+        "energy_kilotons": 2.9,
+        "impact_e": 0.1,
+        "altitude_m": 61.0,
+        "velocity_km_s": 13.2,
+        "source_row_index": 25,
+        "energy_joules": 12133600000000.0,
+        "mass_kg_est": 139274.56382001837,
+        "impactor_diameter_m_est": 4.459135231461982,
+        "crater_diameter_m_est": 1.8663685966166053,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3,
+          47.2
+        ]
+      },
+      "properties": {
+        "date_raw": "2025-01-10 21:11:07",
+        "date": "2025-01-10T21:11:07",
+        "energy_kilotons": 2.7,
+        "impact_e": 0.095,
+        "altitude_m": 34.6,
+        "velocity_km_s": 14.0,
+        "source_row_index": 26,
+        "energy_joules": 11296800000000.0,
+        "mass_kg_est": 115273.4693877551,
+        "impactor_diameter_m_est": 4.186680591095443,
+        "crater_diameter_m_est": 1.8333224642158892,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -168.1,
+          57.7
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-12-28 04:45:12",
+        "date": "2024-12-28T04:45:12",
+        "energy_kilotons": 3.1,
+        "impact_e": 0.11,
+        "altitude_m": 33.7,
+        "velocity_km_s": 17.0,
+        "source_row_index": 27,
+        "energy_joules": 12970400000000.0,
+        "mass_kg_est": 89760.55363321799,
+        "impactor_diameter_m_est": 3.851724492453851,
+        "crater_diameter_m_est": 1.8977471261419776,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1,
+          14.3
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-12-20 17:52:01",
+        "date": "2024-12-20T17:52:01",
+        "energy_kilotons": 154.2,
+        "impact_e": 3.4,
+        "altitude_m": 32.6,
+        "velocity_km_s": 21.1,
+        "source_row_index": 28,
+        "energy_joules": 645172800000000.0,
+        "mass_kg_est": 2898285.30356461,
+        "impactor_diameter_m_est": 12.265175096590488,
+        "crater_diameter_m_est": 5.039866264818362,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -172.4,
+          -42.7
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-12-01 08:50:16",
+        "date": "2024-12-01T08:50:16",
+        "energy_kilotons": 13.0,
+        "impact_e": 0.38,
+        "altitude_m": 35.9,
+        "velocity_km_s": 22.1,
+        "source_row_index": 29,
+        "energy_joules": 54392000000000.0,
+        "mass_kg_est": 222730.9023156774,
+        "impactor_diameter_m_est": 5.214590388391,
+        "crater_diameter_m_est": 2.715712285892936,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4,
+          -74.6
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-11-29 22:18:15",
+        "date": "2024-11-29T22:18:15",
+        "energy_kilotons": 2.7,
+        "impact_e": 0.095,
+        "altitude_m": 68.5,
+        "velocity_km_s": null,
+        "source_row_index": 30,
+        "energy_joules": 11296800000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.8333224642158892,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.6,
+          -79.4
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-11-29 17:57:18",
+        "date": "2024-11-29T17:57:18",
+        "energy_kilotons": 5.8,
+        "impact_e": 0.19,
+        "altitude_m": 62.0,
+        "velocity_km_s": null,
+        "source_row_index": 31,
+        "energy_joules": 24267200000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 2.2194988143141106,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6,
+          -59.8
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-11-10 16:31:52",
+        "date": "2024-11-10T16:31:52",
+        "energy_kilotons": 5.7,
+        "impact_e": 0.18,
+        "altitude_m": 43.0,
+        "velocity_km_s": null,
+        "source_row_index": 32,
+        "energy_joules": 23848800000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 2.2098695251668388,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -136.0,
+          30.0
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-10-22 10:54:48",
+        "date": "2024-10-22T10:54:48",
+        "energy_kilotons": 4.5,
+        "impact_e": 0.15,
+        "altitude_m": 38.2,
+        "velocity_km_s": null,
+        "source_row_index": 33,
+        "energy_joules": 18828000000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 2.083056488822012,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.4,
+          -55.9
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-10-05 12:27:48",
+        "date": "2024-10-05T12:27:48",
+        "energy_kilotons": 2.7,
+        "impact_e": 0.095,
+        "altitude_m": 39.5,
+        "velocity_km_s": 13.1,
+        "source_row_index": 34,
+        "energy_joules": 11296800000000.0,
+        "mass_kg_est": 131656.6633646058,
+        "impactor_diameter_m_est": 4.37630574466446,
+        "crater_diameter_m_est": 1.8333224642158892,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8,
+          -59.8
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-09-28 00:10:19",
+        "date": "2024-09-28T00:10:19",
+        "energy_kilotons": 10.8,
+        "impact_e": 0.32,
+        "altitude_m": 34.2,
+        "velocity_km_s": 15.0,
+        "source_row_index": 35,
+        "energy_joules": 45187200000000.0,
+        "mass_kg_est": 401664.0,
+        "impactor_diameter_m_est": 6.347182863867841,
+        "crater_diameter_m_est": 2.5927094930973738,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -31.9,
+          -45.6
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-09-23 06:37:47",
+        "date": "2024-09-23T06:37:47",
+        "energy_kilotons": 5.5,
+        "impact_e": 0.18,
+        "altitude_m": 69.0,
+        "velocity_km_s": null,
+        "source_row_index": 36,
+        "energy_joules": 23012000000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 2.190224291403605,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.7,
+          -12.9
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-09-06 12:36:22",
+        "date": "2024-09-06T12:36:22",
+        "energy_kilotons": 2.1,
+        "impact_e": 0.076,
+        "altitude_m": 27.0,
+        "velocity_km_s": 22.6,
+        "source_row_index": 37,
+        "energy_joules": 8786400000000.0,
+        "mass_kg_est": 34405.200093977604,
+        "impactor_diameter_m_est": 2.797916419819774,
+        "crater_diameter_m_est": 1.7216812216456925,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.9,
+          18.0
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-09-04 16:39:32",
+        "date": "2024-09-04T16:39:32",
+        "energy_kilotons": 6.2,
+        "impact_e": 0.2,
+        "altitude_m": 25.0,
+        "velocity_km_s": 19.7,
+        "source_row_index": 38,
+        "energy_joules": 25940800000000.0,
+        "mass_kg_est": 133684.45463681105,
+        "impactor_diameter_m_est": 4.398659493156443,
+        "crater_diameter_m_est": 2.256814384884006,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5,
+          -33.6
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-08-25 06:50:49",
+        "date": "2024-08-25T06:50:49",
+        "energy_kilotons": 2.6,
+        "impact_e": 0.092,
+        "altitude_m": 38.2,
+        "velocity_km_s": 20.1,
+        "source_row_index": 39,
+        "energy_joules": 10878400000000.0,
+        "mass_kg_est": 53852.13237296107,
+        "impactor_diameter_m_est": 3.248585806901016,
+        "crater_diameter_m_est": 1.8161062622962583,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.4,
+          -6.7
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-07-30 19:27:16",
+        "date": "2024-07-30T19:27:16",
+        "energy_kilotons": 2.7,
+        "impact_e": 0.095,
+        "altitude_m": 39.0,
+        "velocity_km_s": 14.6,
+        "source_row_index": 41,
+        "energy_joules": 11296800000000.0,
+        "mass_kg_est": 105993.61981610059,
+        "impactor_diameter_m_est": 4.071176668996053,
+        "crater_diameter_m_est": 1.8333224642158892,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          -73.7
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-07-20 14:08:10",
+        "date": "2024-07-20T14:08:10",
+        "energy_kilotons": 243.3,
+        "impact_e": 5.1,
+        "altitude_m": 38.8,
+        "velocity_km_s": 30.8,
+        "source_row_index": 42,
+        "energy_joules": 1017967200000000.0,
+        "mass_kg_est": 2146161.2413560464,
+        "impactor_diameter_m_est": 11.096367290366207,
+        "crater_diameter_m_est": 5.648504072305496,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -41.0,
+          -7.4
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-07-13 03:10:41",
+        "date": "2024-07-13T03:10:41",
+        "energy_kilotons": 59.0,
+        "impact_e": 1.5,
+        "altitude_m": 32.0,
+        "velocity_km_s": null,
+        "source_row_index": 43,
+        "energy_joules": 246856000000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 3.963792593880384,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6,
+          2.6
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-07-12 00:09:35",
+        "date": "2024-07-12T00:09:35",
+        "energy_kilotons": 8.5,
+        "impact_e": 0.26,
+        "altitude_m": 41.5,
+        "velocity_km_s": 22.4,
+        "source_row_index": 44,
+        "energy_joules": 35564000000000.0,
+        "mass_kg_est": 141757.01530612246,
+        "impactor_diameter_m_est": 4.485472804104105,
+        "crater_diameter_m_est": 2.44203930888808,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.6,
+          55.1
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-06-28 16:05:19",
+        "date": "2024-06-28T16:05:19",
+        "energy_kilotons": 3.8,
+        "impact_e": 0.13,
+        "altitude_m": 29.2,
+        "velocity_km_s": 15.3,
+        "source_row_index": 45,
+        "energy_joules": 15899200000000.0,
+        "mass_kg_est": 135838.352770302,
+        "impactor_diameter_m_est": 4.422157195526765,
+        "crater_diameter_m_est": 1.996842530657092,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -31.8,
+          32.2
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-06-18 21:01:32",
+        "date": "2024-06-18T21:01:32",
+        "energy_kilotons": 2.2,
+        "impact_e": 0.079,
+        "altitude_m": 28.7,
+        "velocity_km_s": 16.2,
+        "source_row_index": 46,
+        "energy_joules": 9204800000000.0,
+        "mass_kg_est": 70147.8433165676,
+        "impactor_diameter_m_est": 3.5478464500940436,
+        "crater_diameter_m_est": 1.7418212683878425,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.2,
+          44.3
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-06-18 13:51:19",
+        "date": "2024-06-18T13:51:19",
+        "energy_kilotons": 49.1,
+        "impact_e": 1.2,
+        "altitude_m": 44.3,
+        "velocity_km_s": 35.4,
+        "source_row_index": 47,
+        "energy_joules": 205434400000000.0,
+        "mass_kg_est": 327866.1942609084,
+        "impactor_diameter_m_est": 5.931878598332637,
+        "crater_diameter_m_est": 3.785892621490156,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.2,
+          -63.1
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-06-03 01:13:51",
+        "date": "2024-06-03T01:13:51",
+        "energy_kilotons": 2.67,
+        "impact_e": 0.094,
+        "altitude_m": 60.0,
+        "velocity_km_s": null,
+        "source_row_index": 48,
+        "energy_joules": 11171280000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.828208544215253,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.9,
+          -1.0
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-06-01 23:24:58",
+        "date": "2024-06-01T23:24:58",
+        "energy_kilotons": 8.01,
+        "impact_e": 0.25,
+        "altitude_m": 26.5,
+        "velocity_km_s": 12.6,
+        "source_row_index": 49,
+        "energy_joules": 33513840000000.0,
+        "mass_kg_est": 422195.01133786846,
+        "impactor_diameter_m_est": 6.453536045697557,
+        "crater_diameter_m_est": 2.4060577552994022,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -39.4,
+          1.7
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-05-27 03:19:36",
+        "date": "2024-05-27T03:19:36",
+        "energy_kilotons": 8.4,
+        "impact_e": 0.26,
+        "altitude_m": 56.0,
+        "velocity_km_s": 39.2,
+        "source_row_index": 50,
+        "energy_joules": 35145600000000.0,
+        "mass_kg_est": 45743.44023323615,
+        "impactor_diameter_m_est": 3.0765901752557463,
+        "crater_diameter_m_est": 2.4348249337344168,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2,
+          6.6
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-05-24 16:19:59",
+        "date": "2024-05-24T16:19:59",
+        "energy_kilotons": 5.4,
+        "impact_e": 0.18,
+        "altitude_m": 42.0,
+        "velocity_km_s": 36.5,
+        "source_row_index": 51,
+        "energy_joules": 22593600000000.0,
+        "mass_kg_est": 33917.95834115219,
+        "impactor_diameter_m_est": 2.7846456714618433,
+        "crater_diameter_m_est": 2.180200118539857,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.8,
+          41.0
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-05-18 22:46:48",
+        "date": "2024-05-18T22:46:48",
+        "energy_kilotons": 3.79,
+        "impact_e": 0.13,
+        "altitude_m": 74.3,
+        "velocity_km_s": 40.4,
+        "source_row_index": 52,
+        "energy_joules": 15857360000000.0,
+        "mass_kg_est": 19431.134202529163,
+        "impactor_diameter_m_est": 2.312736163758186,
+        "crater_diameter_m_est": 1.9955275200456297,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.0,
+          49.8
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-05-15 12:48:27",
+        "date": "2024-05-15T12:48:27",
+        "energy_kilotons": 2.83,
+        "impact_e": 0.099,
+        "altitude_m": 64.2,
+        "velocity_km_s": null,
+        "source_row_index": 53,
+        "energy_joules": 11840720000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.855002622127909,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.7,
+          -7.1
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-05-05 20:11:03",
+        "date": "2024-05-05T20:11:03",
+        "energy_kilotons": 3.7,
+        "impact_e": 0.13,
+        "altitude_m": 39.0,
+        "velocity_km_s": 13.9,
+        "source_row_index": 54,
+        "energy_joules": 15480800000000.0,
+        "mass_kg_est": 160248.43434604834,
+        "impactor_diameter_m_est": 4.6725932007161886,
+        "crater_diameter_m_est": 1.9835737392346369,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.8,
+          36.5
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-04-09 04:47:43",
+        "date": "2024-04-09T04:47:43",
+        "energy_kilotons": 3.33,
+        "impact_e": 0.11,
+        "altitude_m": 36.3,
+        "velocity_km_s": null,
+        "source_row_index": 55,
+        "energy_joules": 13932720000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.932008253325371,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2,
+          27.6
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-03-17 06:17:58",
+        "date": "2024-03-17T06:17:58",
+        "energy_kilotons": 3.3,
+        "impact_e": 0.11,
+        "altitude_m": 42.1,
+        "velocity_km_s": 25.6,
+        "source_row_index": 56,
+        "energy_joules": 13807200000000.0,
+        "mass_kg_est": 42136.23046875,
+        "impactor_diameter_m_est": 2.993495442266849,
+        "crater_diameter_m_est": 1.9276421050743064,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.1,
+          22.9
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-02-26 11:21:01",
+        "date": "2024-02-26T11:21:01",
+        "energy_kilotons": 3.8,
+        "impact_e": 0.13,
+        "altitude_m": 33.1,
+        "velocity_km_s": 31.3,
+        "source_row_index": 57,
+        "energy_joules": 15899200000000.0,
+        "mass_kg_est": 32457.614143249397,
+        "impactor_diameter_m_est": 2.744093501622619,
+        "crater_diameter_m_est": 1.996842530657092,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.7,
+          -13.8
+        ]
+      },
+      "properties": {
+        "date_raw": "2024-02-05 00:32:54",
+        "date": "2024-02-05T00:32:54",
+        "energy_kilotons": 4.85,
+        "impact_e": 0.16,
+        "altitude_m": 23.0,
+        "velocity_km_s": 14.4,
+        "source_row_index": 58,
+        "energy_joules": 20292400000000.0,
+        "mass_kg_est": 195721.45061728396,
+        "impactor_diameter_m_est": 4.994662909646013,
+        "crater_diameter_m_est": 2.1224298922759246,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.9,
+          -63.4
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-12-30 21:04:33",
+        "date": "2023-12-30T21:04:33",
+        "energy_kilotons": 23.8,
+        "impact_e": 0.65,
+        "altitude_m": 37.0,
+        "velocity_km_s": 28.3,
+        "source_row_index": 59,
+        "energy_joules": 99579200000000.0,
+        "mass_kg_est": 248671.35311965438,
+        "impactor_diameter_m_est": 5.409643265215863,
+        "crater_diameter_m_est": 3.158945681588567,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.0,
+          -53.6
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-12-11 08:32:58",
+        "date": "2023-12-11T08:32:58",
+        "energy_kilotons": 12.2,
+        "impact_e": 0.36,
+        "altitude_m": 31.7,
+        "velocity_km_s": 26.0,
+        "source_row_index": 60,
+        "energy_joules": 51044800000000.0,
+        "mass_kg_est": 151020.11834319527,
+        "impactor_diameter_m_est": 4.581119736685251,
+        "crater_diameter_m_est": 2.6729317925090186,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.9,
+          10.0
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-12-05 23:10:11",
+        "date": "2023-12-05T23:10:11",
+        "energy_kilotons": 2.1,
+        "impact_e": 0.076,
+        "altitude_m": 24.1,
+        "velocity_km_s": 20.6,
+        "source_row_index": 61,
+        "energy_joules": 8786400000000.0,
+        "mass_kg_est": 41410.123480064096,
+        "impactor_diameter_m_est": 2.976200711423113,
+        "crater_diameter_m_est": 1.7216812216456925,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4,
+          -9.4
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-11-21 22:17:29",
+        "date": "2023-11-21T22:17:29",
+        "energy_kilotons": 4.4,
+        "impact_e": 0.15,
+        "altitude_m": 37.0,
+        "velocity_km_s": 18.3,
+        "source_row_index": 62,
+        "energy_joules": 18409600000000.0,
+        "mass_kg_est": 109944.1607692078,
+        "impactor_diameter_m_est": 4.121140590553057,
+        "crater_diameter_m_est": 2.071386245429886,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.7,
+          -42.9
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-10-30 07:22:55",
+        "date": "2023-10-30T07:22:55",
+        "energy_kilotons": 2.61,
+        "impact_e": 0.092,
+        "altitude_m": 33.8,
+        "velocity_km_s": 17.6,
+        "source_row_index": 63,
+        "energy_joules": 10920240000000.0,
+        "mass_kg_est": 70507.7479338843,
+        "impactor_diameter_m_est": 3.553903698642871,
+        "crater_diameter_m_est": 1.817850005315097,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.8,
+          45.9
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-10-26 08:58:24",
+        "date": "2023-10-26T08:58:24",
+        "energy_kilotons": 29.2,
+        "impact_e": 0.78,
+        "altitude_m": 44.2,
+        "velocity_km_s": 30.2,
+        "source_row_index": 64,
+        "energy_joules": 122172800000000.0,
+        "mass_kg_est": 267911.0565326082,
+        "impactor_diameter_m_est": 5.545706993975812,
+        "crater_diameter_m_est": 3.3246323913698617,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.4,
+          -49.6
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-10-23 02:51:26",
+        "date": "2023-10-23T02:51:26",
+        "energy_kilotons": 5.35,
+        "impact_e": 0.17,
+        "altitude_m": 39.0,
+        "velocity_km_s": null,
+        "source_row_index": 65,
+        "energy_joules": 22384400000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 2.1751357402804996,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.4,
+          -6.5
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-10-16 17:14:52",
+        "date": "2023-10-16T17:14:52",
+        "energy_kilotons": 3.12,
+        "impact_e": 0.11,
+        "altitude_m": 35.3,
+        "velocity_km_s": 19.8,
+        "source_row_index": 66,
+        "energy_joules": 13054080000000.0,
+        "mass_kg_est": 66595.65350474442,
+        "impactor_diameter_m_est": 3.4869201536762855,
+        "crater_diameter_m_est": 1.9008006309893202,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -161.9,
+          -8.4
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-10-14 22:55:25",
+        "date": "2023-10-14T22:55:25",
+        "energy_kilotons": 5.44,
+        "impact_e": 0.18,
+        "altitude_m": 37.0,
+        "velocity_km_s": 19.3,
+        "source_row_index": 67,
+        "energy_joules": 22760960000000.0,
+        "mass_kg_est": 122209.77744368976,
+        "impactor_diameter_m_est": 4.269024940615259,
+        "crater_diameter_m_est": 2.184226359360141,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.4,
+          13.2
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-09-28 20:32:33",
+        "date": "2023-09-28T20:32:33",
+        "energy_kilotons": 5.01,
+        "impact_e": 0.16,
+        "altitude_m": 37.0,
+        "velocity_km_s": null,
+        "source_row_index": 68,
+        "energy_joules": 20961840000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 2.1397219923221007,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8,
+          27.0
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-09-07 15:34:46",
+        "date": "2023-09-07T15:34:46",
+        "energy_kilotons": 2.16,
+        "impact_e": 0.078,
+        "altitude_m": null,
+        "velocity_km_s": null,
+        "source_row_index": 69,
+        "energy_joules": 9037440000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.7338493371292023,
+        "impact_type": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2,
+          -43.2
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-09-03 04:28:00",
+        "date": "2023-09-03T04:28:00",
+        "energy_kilotons": 2.29,
+        "impact_e": 0.082,
+        "altitude_m": 37.0,
+        "velocity_km_s": null,
+        "source_row_index": 70,
+        "energy_joules": 9581360000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.7593684089296038,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.1,
+          48.6
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-08-17 05:57:37",
+        "date": "2023-08-17T05:57:37",
+        "energy_kilotons": 10.4,
+        "impact_e": 0.31,
+        "altitude_m": 35.4,
+        "velocity_km_s": 16.1,
+        "source_row_index": 71,
+        "energy_joules": 43513600000000.0,
+        "mass_kg_est": 335740.13348250446,
+        "impactor_diameter_m_est": 5.978989543705624,
+        "crater_diameter_m_est": 2.568362106850078,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -131.7,
+          19.9
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-08-05 19:54:49",
+        "date": "2023-08-05T19:54:49",
+        "energy_kilotons": 172.0,
+        "impact_e": 3.8,
+        "altitude_m": 44.0,
+        "velocity_km_s": 21.8,
+        "source_row_index": 72,
+        "energy_joules": 719648000000000.0,
+        "mass_kg_est": 3028566.618971467,
+        "impactor_diameter_m_est": 12.44626618045972,
+        "crater_diameter_m_est": 5.179406896102649,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.4,
+          18.9
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-07-26 03:41:53",
+        "date": "2023-07-26T03:41:53",
+        "energy_kilotons": 15.2,
+        "impact_e": 0.44,
+        "altitude_m": 36.1,
+        "velocity_km_s": 15.6,
+        "source_row_index": 73,
+        "energy_joules": 63596800000000.0,
+        "mass_kg_est": 522656.14727153187,
+        "impactor_diameter_m_est": 6.929449412008198,
+        "crater_diameter_m_est": 2.8239617887786723,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.6,
+          14.5
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-07-07 16:15:30",
+        "date": "2023-07-07T16:15:30",
+        "energy_kilotons": 2.62,
+        "impact_e": 0.093,
+        "altitude_m": 38.3,
+        "velocity_km_s": 25.7,
+        "source_row_index": 74,
+        "energy_joules": 10962080000000.0,
+        "mass_kg_est": 33193.78037517601,
+        "impactor_diameter_m_est": 2.764684725083814,
+        "crater_diameter_m_est": 1.8195887447537966,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.4,
+          -59.3
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-07-06 05:52:30",
+        "date": "2023-07-06T05:52:30",
+        "energy_kilotons": 3.12,
+        "impact_e": 0.11,
+        "altitude_m": 71.0,
+        "velocity_km_s": null,
+        "source_row_index": 75,
+        "energy_joules": 13054080000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.9008006309893202,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8,
+          12.4
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-06-21 19:39:12",
+        "date": "2023-06-21T19:39:12",
+        "energy_kilotons": 54.7,
+        "impact_e": 1.4,
+        "altitude_m": 40.4,
+        "velocity_km_s": 16.5,
+        "source_row_index": 76,
+        "energy_joules": 228864800000000.0,
+        "mass_kg_est": 1681284.113865932,
+        "impactor_diameter_m_est": 10.229170342246361,
+        "crater_diameter_m_est": 3.8895087295372712,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.9,
+          -17.8
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-05-20 11:22:22",
+        "date": "2023-05-20T11:22:22",
+        "energy_kilotons": 351.0,
+        "impact_e": 7.1,
+        "altitude_m": 29.0,
+        "velocity_km_s": 27.9,
+        "source_row_index": 77,
+        "energy_joules": 1468584000000000.0,
+        "mass_kg_est": 3773291.7100242805,
+        "impactor_diameter_m_est": 13.392659731101618,
+        "crater_diameter_m_est": 6.190485320351739,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.0,
+          -2.8
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-05-16 23:28:50",
+        "date": "2023-05-16T23:28:50",
+        "energy_kilotons": 3.06,
+        "impact_e": 0.11,
+        "altitude_m": null,
+        "velocity_km_s": null,
+        "source_row_index": 78,
+        "energy_joules": 12803040000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.8915955148214805,
+        "impact_type": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9,
+          36.1
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-05-07 23:00:05",
+        "date": "2023-05-07T23:00:05",
+        "energy_kilotons": 3.98,
+        "impact_e": 0.13,
+        "altitude_m": null,
+        "velocity_km_s": null,
+        "source_row_index": 79,
+        "energy_joules": 16652320000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 2.0200805493112353,
+        "impact_type": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.7,
+          47.0
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-04-26 13:14:59",
+        "date": "2023-04-26T13:14:59",
+        "energy_kilotons": 3.2,
+        "impact_e": 0.11,
+        "altitude_m": 29.6,
+        "velocity_km_s": 16.2,
+        "source_row_index": 80,
+        "energy_joules": 13388800000000.0,
+        "mass_kg_est": 102033.22664228013,
+        "impactor_diameter_m_est": 4.019825935693526,
+        "crater_diameter_m_est": 1.9128698126974997,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0,
+          -20.1
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-04-15 08:21:58",
+        "date": "2023-04-15T08:21:58",
+        "energy_kilotons": 321.0,
+        "impact_e": 6.5,
+        "altitude_m": 41.4,
+        "velocity_km_s": 17.2,
+        "source_row_index": 81,
+        "energy_joules": 1343064000000000.0,
+        "mass_kg_est": 9079664.683612764,
+        "impactor_diameter_m_est": 17.946646605303805,
+        "crater_diameter_m_est": 6.053745748682048,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.9,
+          57.4
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-04-06 14:47:38",
+        "date": "2023-04-06T14:47:38",
+        "energy_kilotons": 6.94,
+        "impact_e": 0.22,
+        "altitude_m": 31.2,
+        "velocity_km_s": 22.1,
+        "source_row_index": 82,
+        "energy_joules": 29036960000000.0,
+        "mass_kg_est": 118904.03554390778,
+        "impactor_diameter_m_est": 4.230180567483767,
+        "crater_diameter_m_est": 2.321334823821324,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.0,
+          -16.8
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-04-01 00:02:02",
+        "date": "2023-04-01T00:02:02",
+        "energy_kilotons": 2.34,
+        "impact_e": 0.084,
+        "altitude_m": 61.8,
+        "velocity_km_s": 46.4,
+        "source_row_index": 83,
+        "energy_joules": 9790560000000.0,
+        "mass_kg_est": 9094.976218787158,
+        "impactor_diameter_m_est": 1.795672907714284,
+        "crater_diameter_m_est": 1.7688943033829982,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -132.6,
+          -23.7
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-03-20 06:53:22",
+        "date": "2023-03-20T06:53:22",
+        "energy_kilotons": 2.69,
+        "impact_e": 0.095,
+        "altitude_m": 34.8,
+        "velocity_km_s": null,
+        "source_row_index": 84,
+        "energy_joules": 11254960000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.8316225806411783,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5,
+          -74.7
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-03-11 08:21:28",
+        "date": "2023-03-11T08:21:28",
+        "energy_kilotons": 44.5,
+        "impact_e": 1.1,
+        "altitude_m": 32.0,
+        "velocity_km_s": null,
+        "source_row_index": 85,
+        "energy_joules": 186188000000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 3.693923709369197,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.4,
+          40.1
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-03-03 02:53:54",
+        "date": "2023-03-03T02:53:54",
+        "energy_kilotons": 6.42,
+        "impact_e": 0.2,
+        "altitude_m": 32.0,
+        "velocity_km_s": 25.3,
+        "source_row_index": 86,
+        "energy_joules": 26861280000000.0,
+        "mass_kg_est": 83929.69738630505,
+        "impactor_diameter_m_est": 3.766447573697229,
+        "crater_diameter_m_est": 2.2765734987252317,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.9,
+          7.9
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-02-19 06:15:33",
+        "date": "2023-02-19T06:15:33",
+        "energy_kilotons": 13.6,
+        "impact_e": 0.4,
+        "altitude_m": 37.0,
+        "velocity_km_s": 23.0,
+        "source_row_index": 87,
+        "energy_joules": 56902400000000.0,
+        "mass_kg_est": 215131.9470699433,
+        "impactor_diameter_m_est": 5.154600484926182,
+        "crater_diameter_m_est": 2.7465192422540943,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.3,
+          -48.0
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-02-14 22:55:24",
+        "date": "2023-02-14T22:55:24",
+        "energy_kilotons": 18.4,
+        "impact_e": 0.52,
+        "altitude_m": 32.3,
+        "velocity_km_s": 15.6,
+        "source_row_index": 88,
+        "energy_joules": 76985600000000.0,
+        "mass_kg_est": 632689.0203813281,
+        "impactor_diameter_m_est": 7.38510725355028,
+        "crater_diameter_m_est": 2.9621181328360677,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.1,
+          -26.2
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-02-02 20:49:22",
+        "date": "2023-02-02T20:49:22",
+        "energy_kilotons": 3.0,
+        "impact_e": 0.1,
+        "altitude_m": 33.0,
+        "velocity_km_s": null,
+        "source_row_index": 89,
+        "energy_joules": 12552000000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.8822540169320587,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2,
+          3.5
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-01-22 17:11:42",
+        "date": "2023-01-22T17:11:42",
+        "energy_kilotons": 1.98,
+        "impact_e": 0.072,
+        "altitude_m": 61.0,
+        "velocity_km_s": null,
+        "source_row_index": 90,
+        "energy_joules": 8284320000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 1.6965404410130207,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.7,
+          33.1
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-01-17 06:57:17",
+        "date": "2023-01-17T06:57:17",
+        "energy_kilotons": 2.92,
+        "impact_e": 0.1,
+        "altitude_m": 38.0,
+        "velocity_km_s": 14.2,
+        "source_row_index": 91,
+        "energy_joules": 12217280000000.0,
+        "mass_kg_est": 121179.13112477683,
+        "impactor_diameter_m_est": 4.256990219614701,
+        "crater_diameter_m_est": 1.8695781847336874,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6,
+          31.5
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-01-11 23:59:50",
+        "date": "2023-01-11T23:59:50",
+        "energy_kilotons": 3.94,
+        "impact_e": 0.13,
+        "altitude_m": 33.5,
+        "velocity_km_s": 17.5,
+        "source_row_index": 92,
+        "energy_joules": 16484960000000.0,
+        "mass_kg_est": 107656.88163265307,
+        "impactor_diameter_m_est": 4.092361337094782,
+        "crater_diameter_m_est": 2.014985728046275,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.0,
+          -45.7
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-01-09 01:17:13",
+        "date": "2023-01-09T01:17:13",
+        "energy_kilotons": 7.14,
+        "impact_e": 0.22,
+        "altitude_m": 27.0,
+        "velocity_km_s": 16.7,
+        "source_row_index": 93,
+        "energy_joules": 29873760000000.0,
+        "mass_kg_est": 214233.28193911578,
+        "impactor_diameter_m_est": 5.147413074492922,
+        "crater_diameter_m_est": 2.33788137926886,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0,
+          1.5
+        ]
+      },
+      "properties": {
+        "date_raw": "2023-01-02 16:38:01",
+        "date": "2023-01-02T16:38:01",
+        "energy_kilotons": 4.58,
+        "impact_e": 0.15,
+        "altitude_m": 44.6,
+        "velocity_km_s": null,
+        "source_row_index": 94,
+        "energy_joules": 19162720000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 2.092253429810101,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9,
+          42.3
+        ]
+      },
+      "properties": {
+        "date_raw": "2022-12-29 06:52:08",
+        "date": "2022-12-29T06:52:08",
+        "energy_kilotons": 5.77,
+        "impact_e": 0.19,
+        "altitude_m": 32.3,
+        "velocity_km_s": 16.4,
+        "source_row_index": 95,
+        "energy_joules": 24141680000000.0,
+        "mass_kg_est": 179518.73884592505,
+        "impactor_diameter_m_est": 4.852847425058319,
+        "crater_diameter_m_est": 2.2166231889962837,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1,
+          32.8
+        ]
+      },
+      "properties": {
+        "date_raw": "2022-12-13 17:26:00",
+        "date": "2022-12-13T17:26:00",
+        "energy_kilotons": 6.28,
+        "impact_e": 0.2,
+        "altitude_m": 20.0,
+        "velocity_km_s": 18.7,
+        "source_row_index": 96,
+        "energy_joules": 26275520000000.0,
+        "mass_kg_est": 150278.932769024,
+        "impactor_diameter_m_est": 4.573612944634799,
+        "crater_diameter_m_est": 2.264059468068509,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7,
+          -17.0
+        ]
+      },
+      "properties": {
+        "date_raw": "2022-11-20 15:35:21",
+        "date": "2022-11-20T15:35:21",
+        "energy_kilotons": 5.47,
+        "impact_e": 0.18,
+        "altitude_m": 50.0,
+        "velocity_km_s": null,
+        "source_row_index": 97,
+        "energy_joules": 22886480000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 2.18723149330742,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.7,
+          15.0
+        ]
+      },
+      "properties": {
+        "date_raw": "2022-11-20 13:53:54",
+        "date": "2022-11-20T13:53:54",
+        "energy_kilotons": 3.37,
+        "impact_e": 0.12,
+        "altitude_m": 26.0,
+        "velocity_km_s": 21.7,
+        "source_row_index": 98,
+        "energy_joules": 14100080000000.0,
+        "mass_kg_est": 59886.93750132727,
+        "impactor_diameter_m_est": 3.3656638846352016,
+        "crater_diameter_m_est": 1.9377841271827556,
+        "impact_type": "surface/ground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2,
+          77.2
+        ]
+      },
+      "properties": {
+        "date_raw": "2022-11-08 08:54:01",
+        "date": "2022-11-08T08:54:01",
+        "energy_kilotons": 6.17,
+        "impact_e": 0.2,
+        "altitude_m": 41.0,
+        "velocity_km_s": null,
+        "source_row_index": 99,
+        "energy_joules": 25815280000000.0,
+        "mass_kg_est": null,
+        "impactor_diameter_m_est": null,
+        "crater_diameter_m_est": 2.254079399793541,
+        "impact_type": "surface/ground"
+      }
+    }
+  ]
+}

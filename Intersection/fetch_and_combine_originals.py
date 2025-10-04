@@ -204,13 +204,30 @@ if len(collected) < TARGET:
             made += 1
             continue
         obj = j.get('object', {})
-        orbit = obj.get('orbit', {})
+        orbit = obj.get('orbit', {}) or j.get('orbit', {})
+        # safe getter for elements (dict or list)
+        def safe_elem_get(elems, key, fallback=NA):
+            if isinstance(elems, dict):
+                return elems.get(key, fallback)
+            if isinstance(elems, list):
+                for it in elems:
+                    if isinstance(it, dict):
+                        if it.get('name') == key:
+                            return it.get('value', it.get('val', fallback))
+                        if key in it:
+                            return it.get(key, fallback)
+            return fallback
+
+        if isinstance(orbit, dict):
+            elems = orbit.get('elements') or orbit
+        else:
+            elems = {}
         mapped = {k: NA for k in SCHEMA}
         mapped['source'] = 'sbdb'
         mapped['name'] = obj.get('fullname') or obj.get('designation')
-        mapped['epoch'] = orbit.get('epoch')
-        mapped['eccentricity'] = orbit.get('e')
-        mapped['orbital_inclination_deg'] = orbit.get('i')
+        mapped['epoch'] = safe_elem_get(elems, 'epoch', orbit.get('epoch', NA))
+        mapped['eccentricity'] = safe_elem_get(elems, 'e', orbit.get('e', NA))
+        mapped['orbital_inclination_deg'] = safe_elem_get(elems, 'i', orbit.get('i', NA))
         add_row(mapped)
         made += 1
         time.sleep(0.1)

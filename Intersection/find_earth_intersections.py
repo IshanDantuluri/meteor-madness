@@ -68,7 +68,14 @@ def extract_moid_from_sbdb(json_obj):
     if not isinstance(json_obj, dict):
         return None
     # SBDB sometimes returns 'orbit' as a top-level key, or nested under 'object'.
+    # orbital elements may be under orbit['elements'] in some responses.
     orbit = json_obj.get('orbit') or json_obj.get('object', {}).get('orbit') or {}
+    # safe accessor for elements which may be a dict or a list
+    def _as_elems(o):
+        if isinstance(o, dict):
+            return o.get('elements') or o
+        return {}
+    elements = _as_elems(orbit)
     # try common keys
     for key in ['moid', 'MOID', 'closest_approach_distance']:
         if key in orbit:
@@ -77,12 +84,27 @@ def extract_moid_from_sbdb(json_obj):
             except Exception:
                 pass
     # fallback: search for any key name containing 'moid'
-    for k, v in orbit.items():
-        if 'moid' in k.lower():
-            try:
+    # elements can be a dict or a list of {'name':..,'value':..}
+    if isinstance(elements, dict):
+        items = elements.items()
+    elif isinstance(elements, list):
+        # convert list into (name,value) pairs where possible
+        items = []
+        for it in elements:
+            if isinstance(it, dict):
+                name = it.get('name') or it.get('key')
+                val = it.get('value') or it.get('val') or next((v for k,v in it.items() if k not in ('name','key')), None)
+                if name:
+                    items.append((name, val))
+    else:
+        items = []
+
+    for k, v in items:
+        try:
+            if k and 'moid' in str(k).lower():
                 return float(v)
-            except Exception:
-                pass
+        except Exception:
+            pass
     return None
 
 

@@ -1,0 +1,30 @@
+{
+  "index": 13,
+  "raw": {
+    "date": "2025-03-29 08:12:43",
+    "energy": "5.9",
+    "impact-e": "0.19",
+    "lat": "49.3",
+    "lat-dir": "S",
+    "lon": "14.3",
+    "lon-dir": "E",
+    "alt": "21.6",
+    "vel": "12.3"
+  },
+  "normalized": {
+    "date_raw": "2025-03-29 08:12:43",
+    "date": "2025-03-29T08:12:43",
+    "energy_kilotons": 5.9,
+    "impact_e": 0.19,
+    "latitude": -49.3,
+    "longitude": 14.3,
+    "altitude_m": 21.6,
+    "velocity_km_s": 12.3,
+    "source_row_index": 13,
+    "energy_joules": 24685600000000.0,
+    "mass_kg_est": 326334.8535924384,
+    "impactor_diameter_m_est": 5.922628985592975,
+    "crater_diameter_m_est": 2.2290043800223867,
+    "impact_type": "surface/ground"
+  }
+}

@@ -1,0 +1,301 @@
+id,name,min_dist_km,min_epoch_jd,intersects,points,error
+2000433,433 Eros (A898 PA),,,,,no_vectors_parsed
+2000719,719 Albert (A911 TB),,,,,no_vectors_parsed
+2000887,887 Alinda (A918 AA),,,,,no_vectors_parsed
+2001036,1036 Ganymed (A924 UB),,,,,no_vectors_parsed
+2001221,1221 Amor (1932 EA1),,,,,no_vectors_parsed
+2001566,1566 Icarus (1949 MA),,,,,no_vectors_parsed
+2001580,1580 Betulia (1950 KA),,,,,no_vectors_parsed
+2001620,1620 Geographos (1951 RA),,,,,no_vectors_parsed
+2001627,1627 Ivar (1929 SH),,,,,no_vectors_parsed
+2001685,1685 Toro (1948 OA),,,,,no_vectors_parsed
+2001862,1862 Apollo (1932 HA),,,,,no_vectors_parsed
+2001863,1863 Antinous (1948 EA),,,,,no_vectors_parsed
+2001864,1864 Daedalus (1971 FA),,,,,no_vectors_parsed
+2001865,1865 Cerberus (1971 UA),,,,,no_vectors_parsed
+2001866,1866 Sisyphus (1972 XA),,,,,no_vectors_parsed
+2001915,1915 Quetzalcoatl (1953 EA),,,,,no_vectors_parsed
+2001916,1916 Boreas (1953 RA),,,,,no_vectors_parsed
+2001917,1917 Cuyo (1968 AA),,,,,no_vectors_parsed
+2001943,1943 Anteros (1973 EC),,,,,no_vectors_parsed
+2001980,1980 Tezcatlipoca (1950 LA),,,,,no_vectors_parsed
+2001981,1981 Midas (1973 EA),,,,,no_vectors_parsed
+2002059,2059 Baboquivari (1963 UA),,,,,no_vectors_parsed
+2002061,2061 Anza (1960 UA),,,,,no_vectors_parsed
+2002062,2062 Aten (1976 AA),,,,,no_vectors_parsed
+2002063,2063 Bacchus (1977 HB),,,,,no_vectors_parsed
+2002100,2100 Ra-Shalom (1978 RA),,,,,no_vectors_parsed
+2002101,2101 Adonis (1936 CA),,,,,no_vectors_parsed
+2002102,2102 Tantalus (1975 YA),,,,,no_vectors_parsed
+2002135,2135 Aristaeus (1977 HA),,,,,no_vectors_parsed
+2002201,2201 Oljato (1947 XC),,,,,no_vectors_parsed
+2002202,2202 Pele (1972 RA),,,,,no_vectors_parsed
+2002212,2212 Hephaistos (1978 SB),,,,,no_vectors_parsed
+2002329,2329 Orthos (1976 WA),,,,,no_vectors_parsed
+2002340,2340 Hathor (1976 UA),,,,,no_vectors_parsed
+2002368,2368 Beltrovata (1977 RA),,,,,no_vectors_parsed
+2002608,2608 Seneca (1978 DA),,,,,no_vectors_parsed
+2003102,3102 Krok (1981 QA),,,,,no_vectors_parsed
+2003103,3103 Eger (1982 BB),,,,,no_vectors_parsed
+2003122,3122 Florence (1981 ET3),,,,,no_vectors_parsed
+2003199,3199 Nefertiti (1982 RA),,,,,no_vectors_parsed
+2003200,3200 Phaethon (1983 TB),,,,,no_vectors_parsed
+2003271,3271 Ul (1982 RB),,,,,no_vectors_parsed
+2003288,3288 Seleucus (1982 DV),,,,,no_vectors_parsed
+2003352,3352 McAuliffe (1981 CW),,,,,no_vectors_parsed
+2003360,3360 Syrinx (1981 VA),,,,,no_vectors_parsed
+2003361,3361 Orpheus (1982 HR),,,,,no_vectors_parsed
+2003362,3362 Khufu (1984 QA),,,,,no_vectors_parsed
+2003551,3551 Verenia (1983 RD),,,,,no_vectors_parsed
+2003552,3552 Don Quixote (1983 SA),,,,,no_vectors_parsed
+2003553,3553 Mera (1985 JA),,,,,no_vectors_parsed
+2003554,3554 Amun (1986 EB),,,,,no_vectors_parsed
+2003671,3671 Dionysus (1984 KD),,,,,no_vectors_parsed
+2003691,3691 Bede (1982 FT),,,,,no_vectors_parsed
+2003752,3752 Camillo (1985 PA),,,,,no_vectors_parsed
+2003753,3753 Cruithne (1986 TO),,,,,no_vectors_parsed
+2003757,3757 Anagolay (1982 XB),,,,,no_vectors_parsed
+2003838,3838 Epona (1986 WA),,,,,no_vectors_parsed
+2003908,3908 Nyx (1980 PA),,,,,no_vectors_parsed
+2003988,3988 Huma (1986 LA),,,,,no_vectors_parsed
+2004015,4015 Wilson-Harrington (1979 VA),,,,,no_vectors_parsed
+2004034,4034 Vishnu (1986 PA),,,,,no_vectors_parsed
+2004055,4055 Magellan (1985 DO2),,,,,no_vectors_parsed
+2004179,4179 Toutatis (1989 AC),,,,,no_vectors_parsed
+2004183,4183 Cuno (1959 LM),,,,,no_vectors_parsed
+2004197,4197 Morpheus (1982 TA),,,,,no_vectors_parsed
+2004257,4257 Ubasti (1987 QA),,,,,no_vectors_parsed
+2004341,4341 Poseidon (1987 KF),,,,,no_vectors_parsed
+2004401,4401 Aditi (1985 TB),,,,,no_vectors_parsed
+2004450,4450 Pan (1987 SY),,,,,no_vectors_parsed
+2004486,4486 Mithra (1987 SB),,,,,no_vectors_parsed
+2004487,4487 Pocahontas (1987 UA),,,,,no_vectors_parsed
+2004503,4503 Cleobulus (1989 WM),,,,,no_vectors_parsed
+2004544,4544 Xanthus (1989 FB),,,,,no_vectors_parsed
+2004581,4581 Asclepius (1989 FC),,,,,no_vectors_parsed
+2004596,4596 (1981 QB),,,,,no_vectors_parsed
+2004660,4660 Nereus (1982 DB),,,,,no_vectors_parsed
+2004688,4688 (1980 WF),,,,,no_vectors_parsed
+2004769,4769 Castalia (1989 PB),,,,,no_vectors_parsed
+2004947,4947 Ninkasi (1988 TJ1),,,,,no_vectors_parsed
+2004953,4953 (1990 MU),,,,,no_vectors_parsed
+2004954,4954 Eric (1990 SQ),,,,,no_vectors_parsed
+2004957,4957 Brucemurray (1990 XJ),,,,,no_vectors_parsed
+2005011,5011 Ptah (6743 P-L),,,,,no_vectors_parsed
+2005131,5131 (1990 BG),,,,,no_vectors_parsed
+2005143,5143 Heracles (1991 VL),,,,,no_vectors_parsed
+2005189,5189 (1990 UQ),,,,,no_vectors_parsed
+2005324,5324 Lyapunov (1987 SL),,,,,no_vectors_parsed
+2005332,5332 Davidaguilar (1990 DA),,,,,no_vectors_parsed
+2005370,5370 Taranis (1986 RA),,,,,no_vectors_parsed
+2005381,5381 Sekhmet (1991 JY),,,,,no_vectors_parsed
+2005496,5496 (1973 NA),,,,,no_vectors_parsed
+2005587,5587 (1990 SB),,,,,no_vectors_parsed
+2005590,5590 (1990 VA),,,,,no_vectors_parsed
+2005604,5604 (1992 FE),,,,,no_vectors_parsed
+2005620,5620 Jasonwheeler (1990 OA),,,,,no_vectors_parsed
+2005626,5626 Melissabrucker (1991 FE),,,,,no_vectors_parsed
+2005645,5645 (1990 SP),,,,,no_vectors_parsed
+2005646,5646 (1990 TR),,,,,no_vectors_parsed
+2005653,5653 Camarillo (1992 WD5),,,,,no_vectors_parsed
+2005660,5660 (1974 MA),,,,,no_vectors_parsed
+2005693,5693 (1993 EA),,,,,no_vectors_parsed
+2005731,5731 Zeus (1988 VP4),,,,,no_vectors_parsed
+2005751,5751 Zao (1992 AC),,,,,no_vectors_parsed
+2005786,5786 Talos (1991 RC),,,,,no_vectors_parsed
+2005797,5797 Bivoj (1980 AA),,,,,no_vectors_parsed
+2005828,5828 (1991 AM),,,,,no_vectors_parsed
+2005836,5836 (1993 MF),,,,,no_vectors_parsed
+2005863,5863 Tara (1983 RB),,,,,no_vectors_parsed
+2005869,5869 Tanith (1988 VN4),,,,,no_vectors_parsed
+2005879,5879 Almeria (1992 CH1),,,,,no_vectors_parsed
+2006037,6037 (1988 EG),,,,,no_vectors_parsed
+2006047,6047 (1991 TB1),,,,,no_vectors_parsed
+2006050,6050 Miwablock (1992 AE),,,,,no_vectors_parsed
+2006053,6053 (1993 BW3),,,,,no_vectors_parsed
+2006063,6063 Jason (1984 KB),,,,,no_vectors_parsed
+2006178,6178 (1986 DA),,,,,no_vectors_parsed
+2006239,6239 Minos (1989 QF),,,,,no_vectors_parsed
+2006455,6455 (1992 HE),,,,,no_vectors_parsed
+2006456,6456 Golombek (1992 OM),,,,,no_vectors_parsed
+2006489,6489 Golevka (1991 JX),82271660152774032.0,2460952.5,False,96,
+2006491,6491 (1991 OA),,,,,no_vectors_parsed
+2006569,6569 Ondaatje (1993 MO),,,,,no_vectors_parsed
+2006611,6611 (1993 VW),,,,,no_vectors_parsed
+2007025,7025 (1993 QA),,,,,no_vectors_parsed
+2007088,7088 Ishtar (1992 AA),,,,,no_vectors_parsed
+2007092,7092 Cadmus (1992 LC),,,,,no_vectors_parsed
+2007236,7236 (1987 PA),,,,,no_vectors_parsed
+2007335,7335 (1989 JA),,,,,no_vectors_parsed
+2007336,7336 Saunders (1989 RS1),,,,,no_vectors_parsed
+2007341,7341 (1991 VK),,,,,no_vectors_parsed
+2007350,7350 (1993 VA),,,,,no_vectors_parsed
+2007358,7358 Oze (1995 YA3),,,,,no_vectors_parsed
+2007474,7474 (1992 TC),,,,,no_vectors_parsed
+2007480,7480 Norwan (1994 PC),,,,,no_vectors_parsed
+2007482,7482 (1994 PC1),,,,,no_vectors_parsed
+2007753,7753 (1988 XB),,,,,no_vectors_parsed
+2007822,7822 (1991 CS),,,,,no_vectors_parsed
+2007839,7839 (1994 ND),,,,,no_vectors_parsed
+2007888,7888 (1993 UC),,,,,no_vectors_parsed
+2007889,7889 (1994 LX),,,,,no_vectors_parsed
+2007977,7977 (1977 QQ5),,,,,no_vectors_parsed
+2008013,8013 Gordonmoore (1990 KA),,,,,no_vectors_parsed
+2008014,8014 (1990 MF),,,,,no_vectors_parsed
+2008034,8034 Akka (1992 LR),,,,,no_vectors_parsed
+2008035,8035 (1992 TB),,,,,no_vectors_parsed
+2008037,8037 (1993 HO1),,,,,no_vectors_parsed
+2008176,8176 (1991 WA),,,,,no_vectors_parsed
+2008201,8201 (1994 AH2),,,,,no_vectors_parsed
+2008507,8507 (1991 CB1),,,,,no_vectors_parsed
+2008566,8566 (1996 EN),,,,,no_vectors_parsed
+2008567,8567 (1996 HW1),,,,,no_vectors_parsed
+2008709,8709 Kadlu (1994 JF1),,,,,no_vectors_parsed
+2009058,9058 (1992 JB),,,,,no_vectors_parsed
+2009162,9162 Kwiila (1987 OA),,,,,no_vectors_parsed
+2009172,9172 Abhramu (1989 OB),,,,,no_vectors_parsed
+2009202,9202 (1993 PB),,,,,no_vectors_parsed
+2009400,9400 (1994 TW1),,,,,no_vectors_parsed
+2009856,9856 (1991 EE),,,,,no_vectors_parsed
+2009950,9950 ESA (1990 VB),,,,,no_vectors_parsed
+2010115,10115 (1992 SK),,,,,no_vectors_parsed
+2010145,10145 (1994 CK1),,,,,no_vectors_parsed
+2010150,10150 (1994 PN),,,,,no_vectors_parsed
+2010165,10165 (1995 BL2),,,,,no_vectors_parsed
+2010302,10302 (1989 ML),,,,,no_vectors_parsed
+2010563,10563 Izhdubar (1993 WD),,,,,no_vectors_parsed
+2010636,10636 (1998 QK56),,,,,no_vectors_parsed
+2010860,10860 (1995 LE),,,,,no_vectors_parsed
+2011054,11054 (1991 FA),,,,,no_vectors_parsed
+2011066,11066 Sigurd (1992 CC1),,,,,no_vectors_parsed
+2011284,11284 Belenus (1990 BA),,,,,no_vectors_parsed
+2011311,11311 Peleus (1993 XN2),,,,,no_vectors_parsed
+2011398,11398 (1998 YP11),,,,,no_vectors_parsed
+2011405,11405 (1999 CV3),,,,,no_vectors_parsed
+2011500,11500 Tomaiyowit (1989 UR),,,,,no_vectors_parsed
+2011885,11885 Summanus (1990 SS),,,,,no_vectors_parsed
+2012538,12538 (1998 OH),,,,,no_vectors_parsed
+2012711,12711 Tukmit (1991 BB),,,,,no_vectors_parsed
+2012923,12923 Zephyr (1999 GK4),,,,,no_vectors_parsed
+2013553,13553 Masaakikoyama (1992 JE),,,,,no_vectors_parsed
+2013651,13651 (1997 BR),,,,,no_vectors_parsed
+2014402,14402 (1991 DB),,,,,no_vectors_parsed
+2014827,14827 Hypnos (1986 JK),,,,,no_vectors_parsed
+2015745,15745 Yuliya (1991 PM5),,,,,no_vectors_parsed
+2015817,15817 Lucianotesi (1994 QC),,,,,no_vectors_parsed
+2016064,16064 Davidharvey (1999 RH27),,,,,no_vectors_parsed
+2016636,16636 (1993 QP),,,,,no_vectors_parsed
+2016657,16657 (1993 UB),,,,,no_vectors_parsed
+2016816,16816 (1997 UF9),,,,,no_vectors_parsed
+2016834,16834 (1997 WU22),,,,,no_vectors_parsed
+2016912,16912 Rhiannon (1998 EP8),,,,,no_vectors_parsed
+2016960,16960 (1998 QS52),,,,,no_vectors_parsed
+2017181,17181 (1999 UM3),,,,,no_vectors_parsed
+2017182,17182 (1999 VU),,,,,no_vectors_parsed
+2017188,17188 (1999 WC2),,,,,no_vectors_parsed
+2017274,17274 (2000 LC16),,,,,no_vectors_parsed
+2017511,17511 (1992 QN),,,,,no_vectors_parsed
+2018106,18106 Blume (2000 NX3),,,,,no_vectors_parsed
+2018109,18109 (2000 NG11),,,,,no_vectors_parsed
+2018172,18172 (2000 QL7),,,,,no_vectors_parsed
+2018736,18736 (1998 NU),,,,,no_vectors_parsed
+2018882,18882 (1999 YN4),,,,,no_vectors_parsed
+2019356,19356 (1997 GH3),,,,,no_vectors_parsed
+2019764,19764 (2000 NF5),,,,,no_vectors_parsed
+2020086,20086 (1994 LW),,,,,no_vectors_parsed
+2020236,20236 (1998 BZ7),,,,,no_vectors_parsed
+2020255,20255 (1998 FX2),,,,,no_vectors_parsed
+2020425,20425 (1998 VD35),,,,,no_vectors_parsed
+2020429,20429 (1998 YN1),,,,,no_vectors_parsed
+2020460,20460 Robwhiteley (1999 LO28),,,,,no_vectors_parsed
+2020790,20790 (2000 SE45),,,,,no_vectors_parsed
+2020826,20826 (2000 UV13),,,,,no_vectors_parsed
+2021088,21088 Chelyabinsk (1992 BL2),,,,,no_vectors_parsed
+2021277,21277 (1996 TO5),,,,,no_vectors_parsed
+2021374,21374 (1997 WS22),,,,,no_vectors_parsed
+2022099,22099 (2000 EX106),,,,,no_vectors_parsed
+2022753,22753 (1998 WT),,,,,no_vectors_parsed
+2022771,22771 (1999 CU3),,,,,no_vectors_parsed
+2023183,23183 (2000 OY21),,,,,no_vectors_parsed
+2023187,23187 (2000 PN9),,,,,no_vectors_parsed
+2023548,23548 (1994 EF2),,,,,no_vectors_parsed
+2023606,23606 (1996 AS1),,,,,no_vectors_parsed
+2023714,23714 (1998 EC3),,,,,no_vectors_parsed
+2024443,24443 (2000 OG),,,,,no_vectors_parsed
+2024445,24445 (2000 PM8),,,,,no_vectors_parsed
+2024475,24475 (2000 VN2),,,,,no_vectors_parsed
+2024761,24761 Ahau (1993 BW2),,,,,no_vectors_parsed
+2025143,25143 Itokawa (1998 SF36),,,,,no_vectors_parsed
+2025330,25330 (1999 KV4),,,,,no_vectors_parsed
+2025916,25916 (2001 CP44),,,,,no_vectors_parsed
+2026166,26166 (1995 QN3),,,,,no_vectors_parsed
+2026310,26310 (1998 TX6),,,,,no_vectors_parsed
+2026379,26379 (1999 HZ1),,,,,no_vectors_parsed
+2026663,26663 (2000 XK47),,,,,no_vectors_parsed
+2026760,26760 (2001 KP41),,,,,no_vectors_parsed
+2026817,26817 (1987 QB),,,,,no_vectors_parsed
+2027002,27002 (1998 DV9),,,,,no_vectors_parsed
+2027031,27031 (1998 RO4),,,,,no_vectors_parsed
+2027346,27346 (2000 DN8),,,,,no_vectors_parsed
+2029075,29075 (1950 DA),,,,,no_vectors_parsed
+2030825,30825 (1990 TG1),,,,,no_vectors_parsed
+2030997,30997 (1995 UO5),,,,,no_vectors_parsed
+2031210,31210 (1998 BX7),,,,,no_vectors_parsed
+2031221,31221 (1998 BP26),,,,,no_vectors_parsed
+2031345,31345 (1998 PG),,,,,no_vectors_parsed
+2031346,31346 (1998 PB1),,,,,no_vectors_parsed
+2031662,31662 (1999 HP11),,,,,no_vectors_parsed
+2031669,31669 (1999 JT6),,,,,no_vectors_parsed
+2032906,32906 (1994 RH),,,,,no_vectors_parsed
+2033342,33342 (1998 WT24),,,,,no_vectors_parsed
+2034613,34613 (2000 UR13),,,,,no_vectors_parsed
+2035107,35107 (1991 VH),,,,,no_vectors_parsed
+2035396,35396 (1997 XF11),,,,,no_vectors_parsed
+2035432,35432 (1998 BG9),,,,,no_vectors_parsed
+2035670,35670 (1998 SU27),,,,,no_vectors_parsed
+2036017,36017 (1999 ND43),,,,,no_vectors_parsed
+2036183,36183 (1999 TX16),,,,,no_vectors_parsed
+2036236,36236 (1999 VV),,,,,no_vectors_parsed
+2036284,36284 (2000 DM8),,,,,no_vectors_parsed
+2037336,37336 (2001 RM),,,,,no_vectors_parsed
+2037638,37638 (1993 VB),,,,,no_vectors_parsed
+2037655,37655 Illapa (1994 PM),,,,,no_vectors_parsed
+2038071,38071 (1999 GU3),,,,,no_vectors_parsed
+2038086,38086 Beowulf (1999 JB),,,,,no_vectors_parsed
+2038091,38091 (1999 JT3),,,,,no_vectors_parsed
+2038239,38239 (1999 OR3),,,,,no_vectors_parsed
+2039565,39565 (1992 SL),,,,,no_vectors_parsed
+2039572,39572 (1993 DQ1),,,,,no_vectors_parsed
+2039796,39796 (1997 TD),,,,,no_vectors_parsed
+2040263,40263 (1999 FQ5),,,,,no_vectors_parsed
+2040267,40267 (1999 GJ4),,,,,no_vectors_parsed
+2040329,40329 (1999 ML),,,,,no_vectors_parsed
+2041429,41429 (2000 GE2),,,,,no_vectors_parsed
+2041440,41440 (2000 HZ23),,,,,no_vectors_parsed
+2042286,42286 (2001 TN41),,,,,no_vectors_parsed
+2048603,48603 (1995 BC2),,,,,no_vectors_parsed
+2052340,52340 (1992 SY),,,,,no_vectors_parsed
+2052381,52381 (1993 HA),,,,,no_vectors_parsed
+2052387,52387 Huitzilopochtli (1993 OM7),,,,,no_vectors_parsed
+2052689,52689 (1998 FF2),,,,,no_vectors_parsed
+2052750,52750 (1998 KK17),,,,,no_vectors_parsed
+2052760,52760 (1998 ML14),,,,,no_vectors_parsed
+2052761,52761 (1998 MN14),,,,,no_vectors_parsed
+2052762,52762 (1998 MT24),,,,,no_vectors_parsed
+2052768,52768 (1998 OR2),,,,,no_vectors_parsed
+2053110,53110 (1999 AR7),,,,,no_vectors_parsed
+2053319,53319 (1999 JM8),,,,,no_vectors_parsed
+2053409,53409 (1999 LU7),,,,,no_vectors_parsed
+2053426,53426 (1999 SL5),,,,,no_vectors_parsed
+2053429,53429 (1999 TF5),,,,,no_vectors_parsed
+2053430,53430 (1999 TY16),,,,,no_vectors_parsed
+2053435,53435 Leonard (1999 VM40),,,,,no_vectors_parsed
+2053550,53550 (2000 BF19),,,,,no_vectors_parsed
+2053789,53789 (2000 ED104),,,,,no_vectors_parsed
+2054071,54071 (2000 GQ146),,,,,no_vectors_parsed
+2054401,54401 (2000 LM),,,,,no_vectors_parsed
+2054509,54509 YORP (2000 PH5),,,,,no_vectors_parsed
+2054660,54660 (2000 UJ1),,,,,no_vectors_parsed
+2054686,54686 (2001 DU8),,,,,no_vectors_parsed
+2054690,54690 (2001 EB),,,,,no_vectors_parsed
+2054789,54789 (2001 MZ7),,,,,no_vectors_parsed
