@@ -17,14 +17,19 @@ if __name__ == "__main__":
     # Generate and export SBDB table
     import csv
     from tabulate import tabulate
-    sbdb_data = fetch_sbdb("433")  # 433 = Eros, WE NEED TO CHANGE THIS TO INCLUDE A TON OF OTHER SHIT THAT WE CAN INTEGRATE.
-    if not sbdb_data or "object" not in sbdb_data:
-        print("No SBDB data to export.")
-    else:
+    # List of first 100 numbered asteroids (as strings)
+    asteroid_ids = [str(i) for i in range(1, 101)]
+    headers = ["Name", "Epoch", "Eccentricity", "Inclination", "Longitude Asc Node", "Arg Perihelion", "Perihelion Dist", "Semi-major Axis", "Mean Anomaly"]
+    out_rows = []
+    for aid in asteroid_ids:
+        sbdb_data = fetch_sbdb(aid)
+        if not sbdb_data or "object" not in sbdb_data:
+            out_rows.append([f"N/A ({aid})"] + ["N/A"] * (len(headers)-1))
+            continue
         obj = sbdb_data["object"]
         orbit = obj.get("orbit", {})
-        table = [[
-            obj.get("fullname", "N/A"),
+        row = [
+            obj.get("fullname", f"N/A ({aid})"),
             orbit.get("epoch", "N/A"),
             orbit.get("e", "N/A"),
             orbit.get("i", "N/A"),
@@ -33,30 +38,18 @@ if __name__ == "__main__":
             orbit.get("q", "N/A"),
             orbit.get("a", "N/A"),
             orbit.get("ma", "N/A")
-        ]]
-        headers = ["Name", "Epoch", "Eccentricity", "Inclination", "Longitude Asc Node", "Arg Perihelion", "Perihelion Dist", "Semi-major Axis", "Mean Anomaly"]
-        # Ensure 100 rows by repeating or padding
-        desired = 100
-        out_rows = []
-        if table:
-            # repeat the single row to reach desired count
-            for i in range(desired):
-                row = table[0][:]
-                row[0] = f"{row[0]} #{i+1}"
-                out_rows.append(row)
-        else:
-            for i in range(desired):
-                out_rows.append(["N/A"] * len(headers))
+        ]
+        out_rows.append(row)
 
-        with open("sbdb_table.csv", "w", newline='', encoding='utf-8') as csvfile:
-            writer = csv.writer(csvfile)
-            writer.writerow(headers)
-            writer.writerows(out_rows)
-        try:
-            print(tabulate(out_rows[:10], headers=headers, tablefmt="fancy_grid"))
-        except Exception:
-            print(f"Wrote {len(out_rows)} rows to sbdb_table.csv")
-        print("Table exported to sbdb_table.csv")
+    with open("sbdb_table.csv", "w", newline='', encoding='utf-8') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(headers)
+        writer.writerows(out_rows)
+    try:
+        print(tabulate(out_rows[:10], headers=headers, tablefmt="fancy_grid"))
+    except Exception:
+        print(f"Wrote {len(out_rows)} rows to sbdb_table.csv")
+    print("Table exported to sbdb_table.csv")
 
 
 # (No extra helper script to run.)

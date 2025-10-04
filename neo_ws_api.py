@@ -25,7 +25,7 @@ if __name__ == "__main__":
     from tabulate import tabulate
     import csv
     today = date.today().isoformat()
-    data = fetch_neo_data(2025-07-01, today)
+    data = fetch_neo_data("2025-07-01", today)
     table = []
     headers = [
         "#",

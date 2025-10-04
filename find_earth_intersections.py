@@ -67,8 +67,8 @@ def query_sbdb_once(id_str):
 def extract_moid_from_sbdb(json_obj):
     if not isinstance(json_obj, dict):
         return None
-    obj = json_obj.get('object', {})
-    orbit = obj.get('orbit') or {}
+    # SBDB sometimes returns 'orbit' as a top-level key, or nested under 'object'.
+    orbit = json_obj.get('orbit') or json_obj.get('object', {}).get('orbit') or {}
     # try common keys
     for key in ['moid', 'MOID', 'closest_approach_distance']:
         if key in orbit:
@@ -92,6 +92,7 @@ def main():
     p.add_argument('--out', default=str(ROOT / 'earth_intersections.csv'))
     p.add_argument('--threshold-au', type=float, default=0.001)
     p.add_argument('--max-calls', type=int, default=500)
+    p.add_argument('--verbose', action='store_true', help='Print per-object progress')
     args = p.parse_args()
 
     input_path = Path(args.input)
@@ -116,8 +117,16 @@ def main():
         if not orig_id:
             continue
 
-        # build variants to try
-        variants = [orig_id]
+        # build variants to try; prefer numeric token from name (e.g., '433' from '433 Eros')
+        variants = []
+        # if name begins with number (e.g., '433 Eros'), try that first
+        name_token = None
+        m_name = re.match(r"^\s*(\d+)", str(name))
+        if m_name:
+            name_token = m_name.group(1)
+            variants.append(name_token)
+        # then original id
+        variants.append(orig_id)
         if orig_id.startswith('(') and orig_id.endswith(')'):
             variants.append(orig_id.strip('()'))
         # if long numeric NeoWs id, try resolve via NeoWs and also try short numeric
@@ -131,11 +140,9 @@ def main():
                     variants.append(short)
             except Exception:
                 pass
-        # if name begins with number (e.g., '433 Eros'), try that too
-        m = re.match(r'^\s*(\d+)', str(name))
-        if m:
-            if m.group(1) not in variants:
-                variants.append(m.group(1))
+        # also ensure any numeric token from name is included
+        if name_token and name_token not in variants:
+            variants.append(name_token)
 
         found = False
         last_error = None
@@ -143,9 +150,13 @@ def main():
             if args.max_calls and calls >= args.max_calls:
                 break
             calls += 1
+            if args.verbose:
+                print(f'[{calls}] trying {v} for row {i} ({orig_id})')
             j, err = query_sbdb_once(v)
             if err:
                 last_error = err
+                if args.verbose:
+                    print('  error:', err)
                 # if 400, try next variant
                 continue
             moid = extract_moid_from_sbdb(j)
@@ -172,108 +183,6 @@ def main():
             w.writerow(r)
 
     print(f'Finished. SBDB calls: {calls}. Wrote {len(results)} rows to {out_path}')
-
-
-if __name__ == '__main__':
-    main()
-    outp = ROOT / args.output
-    if not inp.exists():
-        print('Input not found:', inp)
-        return
-
-    ids = []
-    seen = set()
-    with open(inp, newline='', encoding='utf-8') as f:
-        dr = csv.DictReader(f)
-        for r in dr:
-            if args.source and r.get('source') != args.source:
-                continue
-            nid = r.get('id') or r.get('Id') or r.get('#') or r.get('name')
-            name = r.get('name') or r.get('Name') or ''
-            if not nid:
-                continue
-            if nid in seen:
-                continue
-            seen.add(nid)
-            ids.append((nid, name))
-            if args.max and len(ids) >= args.max:
-                break
-
-    print(f'Checking {len(ids)} objects (threshold {args.threshold} AU)')
-
-    rows_out = []
-    for i, (nid, name) in enumerate(ids, start=1):
-        print(f'[{i}/{len(ids)}] {nid} {name}...', end=' ')
-        # Try several candidate identifiers because the CSV may contain NeoWs numeric ids
-        # which SBDB rejects. We'll try in order: original id, stripped numeric tail, name tokens.
-        candidates = [nid]
-        # if nid looks like 7+ digits and starts with '200', try stripping a leading '200' and leading zeros
-        try:
-            if isinstance(nid, str) and nid.isdigit() and len(nid) > 4 and nid.startswith('200'):
-                tail = nid[3:]
-                # strip leading zeros (e.g. '0433' -> '433')
-                try:
-                    tail_int = str(int(tail))
-                except Exception:
-                    tail_int = tail.lstrip('0') or tail
-                if tail_int and tail_int not in candidates:
-                    candidates.append(tail_int)
-        except Exception:
-            pass
-        # add first token of name (e.g. '433' from '433 Eros')
-        if name:
-            tok = name.split()[0]
-            if tok and tok not in candidates:
-                candidates.append(tok)
-            # try content inside parentheses if present
-            import re
-            m = re.search(r"\(([^)]+)\)", name)
-            if m:
-                par = m.group(1).strip()
-                if par and par not in candidates:
-                    candidates.append(par)
-
-        j = None
-        for cand in candidates:
-            j = query_sbdb(cand)
-            if j and 'error' not in j:
-                break
-        if not j or 'error' in j:
-            err = j.get('error') if isinstance(j, dict) else 'unknown'
-            print('SBDB error:', err)
-            rows_out.append({'id': nid, 'name': name, 'moid_au': '', 'moid_km': '', 'intersects': 'error'})
-            time.sleep(0.1)
-            continue
-
-        obj = j.get('object', {})
-        orbit = j.get('orbit', {})
-        # MOID may be at orbit['moid'] or top-level keys
-        moid = orbit.get('moid') or orbit.get('MOID') or orbit.get('orbit_moid')
-        if moid is None:
-            # sometimes moid is within the top-level 'moid' key
-            moid = j.get('moid')
-        try:
-            moid = float(moid) if moid not in (None, '') else None
-        except Exception:
-            moid = None
-        moid_km = moid * AU_KM if moid is not None else ''
-        intersects = ''
-        if moid is None:
-            intersects = 'unknown'
-        else:
-            intersects = 'yes' if moid <= args.threshold else 'no'
-        print(f'moid={moid} AU => {moid_km} km => intersects={intersects}')
-        rows_out.append({'id': nid, 'name': name, 'moid_au': moid if moid is not None else '', 'moid_km': moid_km, 'intersects': intersects})
-        time.sleep(0.12)
-
-    # write output
-    with open(outp, 'w', newline='', encoding='utf-8') as f:
-        w = csv.DictWriter(f, fieldnames=['id','name','moid_au','moid_km','intersects'])
-        w.writeheader()
-        for r in rows_out:
-            w.writerow(r)
-
-    print('Wrote', outp)
 
 
 if __name__ == '__main__':
