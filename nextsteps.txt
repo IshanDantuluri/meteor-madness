@@ -1,0 +1,45 @@
+1️⃣ Use existing trajectories from APIs
+
+SBDB / NEO APIs give you:
+
+Orbital elements (a, e, i, etc.)
+
+Close approach data (distance, velocity relative to Earth)
+
+You can use these to see if an asteroid or meteor could intersect Earth.
+
+Fireball / Meteorite APIs give historical entries you can study for validation.
+
+2️⃣ Determine possible impact
+
+For each object, take its position & velocity vector from SBDB/NEO/Horizons at Earth-approach.
+
+Check if it passes within Earth’s radius + atmosphere (~6,378 km + 100 km).
+
+If yes → assume a potential impact.
+
+3️⃣ Predict impact parameters
+
+From the trajectory vectors, compute:
+
+Entry velocity (magnitude of relative velocity at top of atmosphere).
+
+Entry angle (angle between velocity vector and local horizontal).
+
+Entry location (lat/lon where it hits atmosphere).
+
+These three are enough for your crater / airburst / blast model.
+
+4️⃣ Optional: Monte Carlo or uncertainty
+
+Because orbital elements have uncertainties, you can simulate multiple slightly different trajectories to produce a probabilistic impact footprint.
+
+This is optional but can make your solution more robust.
+
+✅ Bottom line:
+
+Yes, you mostly use trajectories already in SBDB / NEO.
+
+You extract entry velocity, angle, and location, then feed those into your impact model to estimate crater size, airburst, and damage zones.
+
+You don’t need to propagate the orbit yourself unless you want to predict future encounters not in the database.

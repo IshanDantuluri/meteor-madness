@@ -1,11 +1,23 @@
 #Fetches Near Earth Object data from NASA's Near Earth Object Web Service (NeoWs) API and exports to CSV table.
 
 import requests
+from datetime import date as _date
 
 API_KEY = "GjbT7BRsxhQQaJ5kJTYcAk7u0IaRgWAAMaS4dg9y"  # Replace with your NASA API key for production use
 BASE_URL = "https://api.nasa.gov/neo/rest/v1/feed"
 
 def fetch_neo_data(start_date, end_date):
+    """Fetch NeoWs feed between start_date and end_date.
+
+    start_date/end_date may be either ISO date strings (YYYY-MM-DD) or
+    datetime.date objects. They will be converted to strings if needed.
+    """
+    # Accept date objects or strings
+    if isinstance(start_date, _date):
+        start_date = start_date.isoformat()
+    if isinstance(end_date, _date):
+        end_date = end_date.isoformat()
+
     params = {
         "start_date": start_date,
         "end_date": end_date,
@@ -21,12 +33,19 @@ def fetch_neo_data(start_date, end_date):
 
 if __name__ == "__main__":
     # When run directly, generate and export the NEO table
-    from datetime import date
+    from datetime import date, datetime, timedelta
     from tabulate import tabulate
     import csv
-    from datetime import timedelta
+
+    today_date = date.today()
+    # Default to 5 calendar days ending today: start 4 days before today
+    # (e.g., if today is 2025-10-04, start is 2025-09-30)
+    start_dt = today_date - timedelta(days=4)
+    start_date = start_dt.isoformat()
     today = today_date.isoformat()
-    data = fetch_neo_data("2025-10-01", "2025-10-08")
+
+    data = fetch_neo_data(start_date, today)
+    today = date.today().isoformat()
     table = []
     headers = [
         "#",
@@ -40,9 +59,28 @@ if __name__ == "__main__":
         "Eccentricity",
         "Hazardous"
     ]
-    neos = data.get("near_earth_objects", {}).get(today, [])
+
+    if not data:
+        print("No NEO data returned from API.")
+        neos_list = []
+    else:
+        neos_by_date = data.get("near_earth_objects", {})
+        # Debug: show which date keys the API returned
+        print("DEBUG: API returned date keys:", sorted(neos_by_date.keys()))
+        # Build a flat list of NEOs for every day between start_date and today (inclusive)
+        neos_list = []
+        days = (today_date - start_dt).days
+        for d in range(days + 1):
+            day = (start_dt + timedelta(days=d)).isoformat()
+            day_neos = neos_by_date.get(day, [])
+            print(f"DEBUG: {day} -> {len(day_neos)} NEOs")
+            if day_neos:
+                neos_list.extend(day_neos)
+
+    print(f"DEBUG: total NEOs collected across range: {len(neos_list)}")
+
     idx = 1
-    for neo in neos:
+    for neo in neos_list:
         name = neo.get("name")
         diameter = neo.get("estimated_diameter", {}).get("meters", {})
         min_d = diameter.get("min")
@@ -74,6 +112,7 @@ if __name__ == "__main__":
                 hazardous
             ])
             idx += 1
+
     # Ensure 100 rows: pad with blank rows if needed
     desired = 100
     while len(table) < desired:
@@ -85,7 +124,9 @@ if __name__ == "__main__":
         writer.writerow(headers)
         writer.writerows(table)
     try:
-        print(tabulate(table[:50], headers=headers, tablefmt="fancy_grid"))
+        print(tabulate(table[:200], headers=headers, tablefmt="fancy_grid"))
     except Exception:
-        print(f"Wrote {len(table)} rows to neo_table.csv")
+        pass
+
+    print(f"Wrote {len(table)} rows to neo_table.csv")
     print("Table exported to neo_table.csv")

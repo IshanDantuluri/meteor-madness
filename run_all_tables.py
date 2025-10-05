@@ -7,7 +7,6 @@ scripts = [
     "neo_ws_api.py",
     "sbdb_api.py",
     "fireball_api.py",
-    "meteorite_api.py",
     "horizons_api.py",
 ]
 
